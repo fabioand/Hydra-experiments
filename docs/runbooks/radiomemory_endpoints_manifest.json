@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "name": "radiomemory-endpoints-manifest",
+    "validated_at": "2026-03-21",
+    "source_scripts": [
+      "/Users/fabioandrade/cuter/login.py",
+      "/Users/fabioandrade/cuter/AIHub.py"
+    ],
+    "validation_rule": {
+      "route_exists_statuses": [200, 401, 403, 422, 500],
+      "route_not_found_status": 404
+    }
+  },
+  "base_urls": {
+    "prod": "https://api.radiomemory.com.br/ia-idoc",
+    "dev2": "https://iaapi2.radiomemory.com.br/dev",
+    "dev_legacy": "https://iaapi.radiomemory.com.br/dev",
+    "extra": "https://api.radiomemory.com.br/ia-dev"
+  },
+  "auth": {
+    "method": "POST",
+    "path": "/v1/auth/token",
+    "content_type": "application/x-www-form-urlencoded",
+    "form_template": "grant_type=&username={username}&password={password}&scope=&client_id=&client_secret="
+  },
+  "endpoints": [
+    {"path": "/internal/tomos/Teles", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/SagitalClass", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/Mip8mmBoca", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/Mip8mmMax", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/Mip8mmMan", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/PontosCephMax", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/PontosCephMan", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/PontosCephBoca", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/BigFOVSeg", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/SmallFOVSeg", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/PlanoOclusal", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/LinhaOclusalAxial", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/CycleMax", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/SagitalClassLegacy", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/KeypointsAxial", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/internal/tomos/bbox-autoencoder-maxila", "expected_payload": ["points"], "status_prod": 422, "valid": true},
+    {"path": "/internal/tomos/bbox-autoencoder-mandibula", "expected_payload": ["points"], "status_prod": 422, "valid": true},
+    {"path": "/internal/tomos/bbox-autoencoder-boca", "expected_payload": ["points"], "status_prod": 422, "valid": true},
+    {"path": "/v1/periapicals/longaxis", "expected_payload": ["base64_image"], "status_prod": 500, "valid": true},
+    {"path": "/v1/periapicals/classify", "expected_payload": ["base64_image"], "status_prod": 404, "valid": false},
+    {"path": "/v1/periapicals/annomalies_all", "expected_payload": ["base64_image"], "status_prod": 404, "valid": false}
+  ],
+  "absolute_endpoints": [
+    {
+      "url": "https://api.radiomemory.com.br/ia-dev/api/v1/panoramics/longaxis",
+      "expected_payload": ["base64_image"],
+      "status": 500,
+      "valid": true
+    }
+  ],
+  "usage_phrase": "Use o manifesto docs/runbooks/radiomemory_endpoints_manifest.json e o runbook RADIOMEMORY_API_ENTRYPOINTS_RUNBOOK.md como referencia oficial para novas integracoes e testes de API Radiomemory."
+}

@@ -1,0 +1,139 @@
+{
+  "base": "https://api.radiomemory.com.br/ia-idoc",
+  "image": "/Users/fabioandrade/hydra/longoeixo/imgs/ararasradiodonto.radiomemory.com.br_373829_11994.jpg",
+  "probes": [
+    {
+      "path": "/v1/panoramics/anatomic_points",
+      "url": "https://api.radiomemory.com.br/ia-idoc/v1/panoramics/anatomic_points",
+      "status_code": 200,
+      "content_type": "application/json",
+      "entity_count": 6,
+      "class_names": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "E.N.A.",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "keyword_hits": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "looks_like_target": true,
+      "body_preview": "{\"model_name\": \"anatomic_points\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"Côndilo - Direito\", \"score\": 0.9718683958053589, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [247.85714285714286, 363.3928571428571], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Gônio - Direito\", \"score\": 0.9498414397239685, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [297.4285714285714, 1037.3214285714284], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"E.N.A.\", \"score\": 0.9592772126197815, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [1375.607142857143, 455.89285714285717], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Mentoniano\", \"score\": 0.9646049737930298, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [1375.607142857143, 1374.2857142857142], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Côndilo - Esquerdo\", \"score\": 0.9704263806343079, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [2490.964285714286, 389.82142857142856], \"line\": null, \"bbox\": null, \"contour\": n"
+    },
+    {
+      "path": "/v1/panoramics/describe",
+      "url": "https://api.radiomemory.com.br/ia-idoc/v1/panoramics/describe",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "entity_count": 6,
+      "class_names": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "E.N.A.",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "keyword_hits": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "looks_like_target": true,
+      "body_preview": "{\"model_name\": \"metals\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"implante\", \"score\": 0.916025698184967, \"model_name\": \"metals\", \"tooth\": null, \"point\": null, \"line\": null, \"bbox\": [1213.2839609781902, 519.6553432941437, 1282.4346641540528, 645.094997882843], \"contour\": null, \"heatmap\": null}, {\"class_name\": \"protese unitaria\", \"score\": 0.7448359131813049, \"model_name\": \"metals\", \"tooth\": null, \"point\": null, \"line\": null, \"bbox\": [1198.8240392049154, 635.6245577335358, 1300.1548589070637, 797.6026368141174], \"contour\": null, \"heatmap\": null}], \"path\": \"default\"}\n{\"model_name\": \"panorogram\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"ContMand\", \"score\": null, \"model_name\": \"panorogram\", \"tooth\": null, \"point\": null, \"line\": null, \"bbox\": null, \"contour\": [[242.0, 259.0], [241.0, 260.0], [237.0, 261.0], [236.0, 261.0], [234.0, 262.0], [233.0, 262.0], [228.0, 264.0], [225.0, 266.0], [222.0, 267.0], [221.0, 268.0], [218.0, 270.0], [216.0, 271.0], [215.0, 272.0], [213.0, 273.0], [211.0, 274.0], [209.0, 275.0], [208.0, 276.0], [207.0, 276.0], [203.0, 279.0], [202.0, 280.0], [199.0, 28"
+    },
+    {
+      "path": "/radiobot/panoramics/describe",
+      "url": "https://api.radiomemory.com.br/ia-idoc/radiobot/panoramics/describe",
+      "status_code": 422,
+      "content_type": "application/json",
+      "entity_count": 0,
+      "class_names": [],
+      "keyword_hits": [],
+      "looks_like_target": false,
+      "body_preview": "{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"info\"],\"msg\":\"Field required\",\"input\":{\"base64_image\":\"/9j/4AAQSkZJRgABAQAAAQABAAD//gAfTEVBRCBUZWNobm9sb2dpZXMgSW5jLiBWMS4wMQD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAXICtgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3zpwKWik+lAB7CjB9aX7o44pCQq8mgAxRj04pCzbflXFKX2gDjd6UAKBijFIWCjJ6mkZhjrg0AOx+lAB9eKaCNpBbmmh/kG0ZA680ASbfejaKYshOSflUU0y7GLMRt9jQBKNv8JFB2j0FRhooxxgUgmhUhVkBP50ASqV/hpeAPSoyVBPzbfpSlhjdkbRQA7jGcYpcAVF5i5BzxSk/KTuwvuaAJAR2IpBnH"
+    }
+  ],
+  "found_candidates": [
+    {
+      "path": "/v1/panoramics/anatomic_points",
+      "url": "https://api.radiomemory.com.br/ia-idoc/v1/panoramics/anatomic_points",
+      "status_code": 200,
+      "content_type": "application/json",
+      "entity_count": 6,
+      "class_names": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "E.N.A.",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "keyword_hits": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "looks_like_target": true,
+      "body_preview": "{\"model_name\": \"anatomic_points\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"Côndilo - Direito\", \"score\": 0.9718683958053589, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [247.85714285714286, 363.3928571428571], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Gônio - Direito\", \"score\": 0.9498414397239685, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [297.4285714285714, 1037.3214285714284], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"E.N.A.\", \"score\": 0.9592772126197815, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [1375.607142857143, 455.89285714285717], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Mentoniano\", \"score\": 0.9646049737930298, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [1375.607142857143, 1374.2857142857142], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Côndilo - Esquerdo\", \"score\": 0.9704263806343079, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [2490.964285714286, 389.82142857142856], \"line\": null, \"bbox\": null, \"contour\": n"
+    },
+    {
+      "path": "/v1/panoramics/describe",
+      "url": "https://api.radiomemory.com.br/ia-idoc/v1/panoramics/describe",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "entity_count": 6,
+      "class_names": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "E.N.A.",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "keyword_hits": [
+        "Côndilo - Direito",
+        "Côndilo - Esquerdo",
+        "Gônio - Direito",
+        "Gônio - Esquerdo",
+        "Mentoniano"
+      ],
+      "looks_like_target": true,
+      "body_preview": "{\"model_name\": \"metals\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"implante\", \"score\": 0.916025698184967, \"model_name\": \"metals\", \"tooth\": null, \"point\": null, \"line\": null, \"bbox\": [1213.2839609781902, 519.6553432941437, 1282.4346641540528, 645.094997882843], \"contour\": null, \"heatmap\": null}, {\"class_name\": \"protese unitaria\", \"score\": 0.7448359131813049, \"model_name\": \"metals\", \"tooth\": null, \"point\": null, \"line\": null, \"bbox\": [1198.8240392049154, 635.6245577335358, 1300.1548589070637, 797.6026368141174], \"contour\": null, \"heatmap\": null}], \"path\": \"default\"}\n{\"model_name\": \"panorogram\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"ContMand\", \"score\": null, \"model_name\": \"panorogram\", \"tooth\": null, \"point\": null, \"line\": null, \"bbox\": null, \"contour\": [[242.0, 259.0], [241.0, 260.0], [237.0, 261.0], [236.0, 261.0], [234.0, 262.0], [233.0, 262.0], [228.0, 264.0], [225.0, 266.0], [222.0, 267.0], [221.0, 268.0], [218.0, 270.0], [216.0, 271.0], [215.0, 272.0], [213.0, 273.0], [211.0, 274.0], [209.0, 275.0], [208.0, 276.0], [207.0, 276.0], [203.0, 279.0], [202.0, 280.0], [199.0, 28"
+    }
+  ],
+  "best_guess": {
+    "path": "/v1/panoramics/anatomic_points",
+    "url": "https://api.radiomemory.com.br/ia-idoc/v1/panoramics/anatomic_points",
+    "status_code": 200,
+    "content_type": "application/json",
+    "entity_count": 6,
+    "class_names": [
+      "Côndilo - Direito",
+      "Côndilo - Esquerdo",
+      "E.N.A.",
+      "Gônio - Direito",
+      "Gônio - Esquerdo",
+      "Mentoniano"
+    ],
+    "keyword_hits": [
+      "Côndilo - Direito",
+      "Côndilo - Esquerdo",
+      "Gônio - Direito",
+      "Gônio - Esquerdo",
+      "Mentoniano"
+    ],
+    "looks_like_target": true,
+    "body_preview": "{\"model_name\": \"anatomic_points\", \"output_width\": 2776, \"output_height\": 1480, \"image_hash\": null, \"entities\": [{\"class_name\": \"Côndilo - Direito\", \"score\": 0.9718683958053589, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [247.85714285714286, 363.3928571428571], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Gônio - Direito\", \"score\": 0.9498414397239685, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [297.4285714285714, 1037.3214285714284], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"E.N.A.\", \"score\": 0.9592772126197815, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [1375.607142857143, 455.89285714285717], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Mentoniano\", \"score\": 0.9646049737930298, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [1375.607142857143, 1374.2857142857142], \"line\": null, \"bbox\": null, \"contour\": null, \"heatmap\": null}, {\"class_name\": \"Côndilo - Esquerdo\", \"score\": 0.9704263806343079, \"model_name\": \"anatomic_points\", \"tooth\": null, \"point\": [2490.964285714286, 389.82142857142856], \"line\": null, \"bbox\": null, \"contour\": n"
+  }
+}

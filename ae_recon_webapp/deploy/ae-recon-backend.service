@@ -1,0 +1,16 @@
+[Unit]
+Description=AE Reconstruction Backend (FastAPI)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/hydra
+Environment=PYTHONPATH=/opt/hydra
+EnvironmentFile=/opt/hydra/ae_recon_webapp/.env
+ExecStart=/opt/hydra/.venv/bin/python -m uvicorn ae_recon_webapp.backend.app.main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

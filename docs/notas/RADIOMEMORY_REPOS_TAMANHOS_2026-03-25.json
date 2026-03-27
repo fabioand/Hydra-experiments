@@ -1,0 +1,688 @@
+{
+  "summary": {
+    "repo_count": 78,
+    "with_size": 78,
+    "without_size": 0,
+    "total_kb": 2360917,
+    "total_mb": 2305.58,
+    "total_gb": 2.252,
+    "top10_largest": [
+      {
+        "nameWithOwner": "Radio-Memory/cefbot",
+        "diskUsageKB": 1425527,
+        "diskUsageMB": 1392.12
+      },
+      {
+        "nameWithOwner": "Radio-Memory/segmentacao-panoramica-tensorflow-artigo",
+        "diskUsageKB": 306224,
+        "diskUsageMB": 299.05
+      },
+      {
+        "nameWithOwner": "Radio-Memory/tomoservice",
+        "diskUsageKB": 167604,
+        "diskUsageMB": 163.68
+      },
+      {
+        "nameWithOwner": "fabioand/tomonav-mobile",
+        "diskUsageKB": 76506,
+        "diskUsageMB": 74.71
+      },
+      {
+        "nameWithOwner": "Radio-Memory/Realidade-Aumentada",
+        "diskUsageKB": 69828,
+        "diskUsageMB": 68.19
+      },
+      {
+        "nameWithOwner": "Radio-Memory/ia-demo",
+        "diskUsageKB": 61985,
+        "diskUsageMB": 60.53
+      },
+      {
+        "nameWithOwner": "Radio-Memory/RadioServer-Classificador",
+        "diskUsageKB": 53849,
+        "diskUsageMB": 52.59
+      },
+      {
+        "nameWithOwner": "Radio-Memory/radiomemory-ai-api-demo",
+        "diskUsageKB": 35991,
+        "diskUsageMB": 35.15
+      },
+      {
+        "nameWithOwner": "Radio-Memory/position-anomalies",
+        "diskUsageKB": 24220,
+        "diskUsageMB": 23.65
+      },
+      {
+        "nameWithOwner": "Radio-Memory/ai-api",
+        "diskUsageKB": 16487,
+        "diskUsageMB": 16.1
+      }
+    ]
+  },
+  "rows": [
+    {
+      "nameWithOwner": "Radio-Memory/-alinhamento_oclusais-",
+      "diskUsageKB": 0,
+      "diskUsageMB": 0.0,
+      "isPrivate": true,
+      "updatedAt": "2023-04-27T18:37:43Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/Pearl",
+      "diskUsageKB": 3905,
+      "diskUsageMB": 3.81,
+      "isPrivate": true,
+      "updatedAt": "2023-10-29T21:33:35Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/RadioServer-Classificador",
+      "diskUsageKB": 53849,
+      "diskUsageMB": 52.59,
+      "isPrivate": true,
+      "updatedAt": "2023-05-09T14:57:05Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/Realidade-Aumentada",
+      "diskUsageKB": 69828,
+      "diskUsageMB": 68.19,
+      "isPrivate": true,
+      "updatedAt": "2023-03-16T16:15:17Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/Transaxiais-local",
+      "diskUsageKB": 1336,
+      "diskUsageMB": 1.3,
+      "isPrivate": true,
+      "updatedAt": "2026-02-03T13:16:37Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/abaimpressao",
+      "diskUsageKB": 15846,
+      "diskUsageMB": 15.47,
+      "isPrivate": true,
+      "updatedAt": "2022-08-29T14:47:12Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ai-api",
+      "diskUsageKB": 16487,
+      "diskUsageMB": 16.1,
+      "isPrivate": true,
+      "updatedAt": "2022-11-04T18:48:29Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ai-api-lambda",
+      "diskUsageKB": 12128,
+      "diskUsageMB": 11.84,
+      "isPrivate": true,
+      "updatedAt": "2026-01-16T14:39:58Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ai-training",
+      "diskUsageKB": 10085,
+      "diskUsageMB": 9.85,
+      "isPrivate": true,
+      "updatedAt": "2024-08-29T15:29:41Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/alinhamento_oclusais",
+      "diskUsageKB": 6408,
+      "diskUsageMB": 6.26,
+      "isPrivate": true,
+      "updatedAt": "2023-04-27T19:21:51Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/angular2-useful-swiper",
+      "diskUsageKB": 1570,
+      "diskUsageMB": 1.53,
+      "isPrivate": false,
+      "updatedAt": "2025-07-29T21:53:20Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/anomalias",
+      "diskUsageKB": 79,
+      "diskUsageMB": 0.08,
+      "isPrivate": true,
+      "updatedAt": "2022-06-11T15:47:24Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/api",
+      "diskUsageKB": 104,
+      "diskUsageMB": 0.1,
+      "isPrivate": false,
+      "updatedAt": "2022-06-01T15:03:47Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/artigos_cards_componente",
+      "diskUsageKB": 1344,
+      "diskUsageMB": 1.31,
+      "isPrivate": true,
+      "updatedAt": "2025-02-17T18:17:39Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/autoencoder_longoeixo",
+      "diskUsageKB": 20,
+      "diskUsageMB": 0.02,
+      "isPrivate": true,
+      "updatedAt": "2022-06-01T13:08:19Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada",
+      "diskUsageKB": 2636,
+      "diskUsageMB": 2.57,
+      "isPrivate": true,
+      "updatedAt": "2023-03-04T00:50:55Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/cef_keypoints",
+      "diskUsageKB": 60,
+      "diskUsageMB": 0.06,
+      "isPrivate": true,
+      "updatedAt": "2021-09-13T13:18:54Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/cefbot",
+      "diskUsageKB": 1425527,
+      "diskUsageMB": 1392.12,
+      "isPrivate": true,
+      "updatedAt": "2024-06-10T21:04:10Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/classificador",
+      "diskUsageKB": 0,
+      "diskUsageMB": 0.0,
+      "isPrivate": true,
+      "updatedAt": "2021-09-06T18:43:06Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/classificador-onnx",
+      "diskUsageKB": 10,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2023-01-31T00:19:24Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/classification",
+      "diskUsageKB": 73,
+      "diskUsageMB": 0.07,
+      "isPrivate": true,
+      "updatedAt": "2021-07-09T18:32:30Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/curves",
+      "diskUsageKB": 62,
+      "diskUsageMB": 0.06,
+      "isPrivate": true,
+      "updatedAt": "2021-10-04T18:15:30Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/cyclegan",
+      "diskUsageKB": 43,
+      "diskUsageMB": 0.04,
+      "isPrivate": true,
+      "updatedAt": "2022-01-21T22:53:50Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/dcm-converter",
+      "diskUsageKB": 2717,
+      "diskUsageMB": 2.65,
+      "isPrivate": true,
+      "updatedAt": "2024-06-17T13:38:57Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/denticao_keras",
+      "diskUsageKB": 11,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2021-09-13T13:45:25Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/desdentados",
+      "diskUsageKB": 7,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2021-09-13T13:51:11Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/face_marching_keypoints",
+      "diskUsageKB": 33,
+      "diskUsageMB": 0.03,
+      "isPrivate": true,
+      "updatedAt": "2022-05-20T01:53:03Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/filtro_sagital",
+      "diskUsageKB": 58,
+      "diskUsageMB": 0.06,
+      "isPrivate": true,
+      "updatedAt": "2021-11-22T18:45:52Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/get_tomo_views",
+      "diskUsageKB": 10,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2022-04-27T05:31:57Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ia-demo",
+      "diskUsageKB": 61985,
+      "diskUsageMB": 60.53,
+      "isPrivate": true,
+      "updatedAt": "2022-02-15T13:05:15Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ia-docs",
+      "diskUsageKB": 3,
+      "diskUsageMB": 0.0,
+      "isPrivate": true,
+      "updatedAt": "2021-12-29T13:35:36Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ia-lambda",
+      "diskUsageKB": 3444,
+      "diskUsageMB": 3.36,
+      "isPrivate": true,
+      "updatedAt": "2022-01-06T19:33:21Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ia_downloader",
+      "diskUsageKB": 7,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2022-04-01T12:29:47Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ia_tomo_downloader",
+      "diskUsageKB": 21,
+      "diskUsageMB": 0.02,
+      "isPrivate": true,
+      "updatedAt": "2022-04-18T10:13:15Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/keypoints",
+      "diskUsageKB": 34,
+      "diskUsageMB": 0.03,
+      "isPrivate": true,
+      "updatedAt": "2021-07-13T17:16:02Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/kubernetes-deploy",
+      "diskUsageKB": 2966,
+      "diskUsageMB": 2.9,
+      "isPrivate": true,
+      "updatedAt": "2022-10-11T17:51:21Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/lambda-docker-onnx",
+      "diskUsageKB": 3024,
+      "diskUsageMB": 2.95,
+      "isPrivate": true,
+      "updatedAt": "2022-06-30T23:42:59Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/longo-eixo-dente-individual",
+      "diskUsageKB": 1224,
+      "diskUsageMB": 1.2,
+      "isPrivate": true,
+      "updatedAt": "2023-03-02T03:08:42Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/longoeixo",
+      "diskUsageKB": 163,
+      "diskUsageMB": 0.16,
+      "isPrivate": true,
+      "updatedAt": "2021-10-25T20:25:27Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/longoeixo_periapical",
+      "diskUsageKB": 2208,
+      "diskUsageMB": 2.16,
+      "isPrivate": true,
+      "updatedAt": "2022-01-07T16:45:46Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/longoeixo_service",
+      "diskUsageKB": 169,
+      "diskUsageMB": 0.17,
+      "isPrivate": true,
+      "updatedAt": "2021-08-25T21:59:13Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/metais",
+      "diskUsageKB": 374,
+      "diskUsageMB": 0.37,
+      "isPrivate": true,
+      "updatedAt": "2021-10-04T19:15:52Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/ngx-lazy-el",
+      "diskUsageKB": 2946,
+      "diskUsageMB": 2.88,
+      "isPrivate": false,
+      "updatedAt": "2025-07-09T20:21:19Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/oclusal_deteccao_recorte_tensorflow",
+      "diskUsageKB": 748,
+      "diskUsageMB": 0.73,
+      "isPrivate": true,
+      "updatedAt": "2023-03-08T01:40:05Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/org-settings",
+      "diskUsageKB": 0,
+      "diskUsageMB": 0.0,
+      "isPrivate": true,
+      "updatedAt": "2022-04-18T12:07:09Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/peri_class",
+      "diskUsageKB": 0,
+      "diskUsageMB": 0.0,
+      "isPrivate": true,
+      "updatedAt": "2022-03-07T18:25:04Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/pontos_cefalometria_memae",
+      "diskUsageKB": 99,
+      "diskUsageMB": 0.1,
+      "isPrivate": true,
+      "updatedAt": "2021-09-03T17:29:57Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/portal_api",
+      "diskUsageKB": 5883,
+      "diskUsageMB": 5.75,
+      "isPrivate": true,
+      "updatedAt": "2025-07-14T14:09:14Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/position-anomalies",
+      "diskUsageKB": 24220,
+      "diskUsageMB": 23.65,
+      "isPrivate": true,
+      "updatedAt": "2023-03-01T20:29:02Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/procedimentos",
+      "diskUsageKB": 48,
+      "diskUsageMB": 0.05,
+      "isPrivate": true,
+      "updatedAt": "2021-11-01T13:09:54Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/radiomemory-ai-api-demo",
+      "diskUsageKB": 35991,
+      "diskUsageMB": 35.15,
+      "isPrivate": false,
+      "updatedAt": "2024-01-12T14:06:04Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rdn_extractor",
+      "diskUsageKB": 13328,
+      "diskUsageMB": 13.02,
+      "isPrivate": true,
+      "updatedAt": "2023-11-01T13:11:02Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rmannotations_server",
+      "diskUsageKB": 14744,
+      "diskUsageMB": 14.4,
+      "isPrivate": true,
+      "updatedAt": "2022-02-16T17:40:59Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rmdatasets",
+      "diskUsageKB": 826,
+      "diskUsageMB": 0.81,
+      "isPrivate": true,
+      "updatedAt": "2021-08-02T17:51:15Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rmdetectron2",
+      "diskUsageKB": 12,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2021-10-21T17:34:51Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rmia",
+      "diskUsageKB": 4126,
+      "diskUsageMB": 4.03,
+      "isPrivate": true,
+      "updatedAt": "2021-09-28T18:21:41Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rmmining",
+      "diskUsageKB": 12,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2021-07-30T19:23:17Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/rmtorch",
+      "diskUsageKB": 28,
+      "diskUsageMB": 0.03,
+      "isPrivate": true,
+      "updatedAt": "2023-01-27T20:42:32Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/sample_clearml_project",
+      "diskUsageKB": 5,
+      "diskUsageMB": 0.0,
+      "isPrivate": true,
+      "updatedAt": "2023-10-29T00:35:16Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/segmentacao-panoramica-tensorflow-artigo",
+      "diskUsageKB": 306224,
+      "diskUsageMB": 299.05,
+      "isPrivate": true,
+      "updatedAt": "2023-03-02T00:21:17Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/segmentacao_templates",
+      "diskUsageKB": 17,
+      "diskUsageMB": 0.02,
+      "isPrivate": true,
+      "updatedAt": "2021-07-13T01:29:04Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/semantic",
+      "diskUsageKB": 2165,
+      "diskUsageMB": 2.11,
+      "isPrivate": true,
+      "updatedAt": "2021-08-09T19:27:17Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/spagan_face2marching",
+      "diskUsageKB": 153,
+      "diskUsageMB": 0.15,
+      "isPrivate": true,
+      "updatedAt": "2022-05-09T23:52:04Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/spagan_tomo2tele",
+      "diskUsageKB": 35,
+      "diskUsageMB": 0.03,
+      "isPrivate": true,
+      "updatedAt": "2022-02-17T16:09:38Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tcls_torch",
+      "diskUsageKB": 1464,
+      "diskUsageMB": 1.43,
+      "isPrivate": true,
+      "updatedAt": "2023-01-27T20:42:31Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/teeth_detection",
+      "diskUsageKB": 685,
+      "diskUsageMB": 0.67,
+      "isPrivate": true,
+      "updatedAt": "2021-12-29T13:34:20Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/teeth_semantic_segmentation",
+      "diskUsageKB": 29,
+      "diskUsageMB": 0.03,
+      "isPrivate": true,
+      "updatedAt": "2022-03-31T18:53:44Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/teladash_service_internal",
+      "diskUsageKB": 1422,
+      "diskUsageMB": 1.39,
+      "isPrivate": true,
+      "updatedAt": "2025-12-11T18:42:17Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/templates-idoc",
+      "diskUsageKB": 7,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2023-11-09T18:49:52Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tomocutter-AI",
+      "diskUsageKB": 132,
+      "diskUsageMB": 0.13,
+      "isPrivate": true,
+      "updatedAt": "2023-11-27T19:20:53Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tomocutter_lambda",
+      "diskUsageKB": 513,
+      "diskUsageMB": 0.5,
+      "isPrivate": true,
+      "updatedAt": "2024-05-27T15:14:16Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tomos",
+      "diskUsageKB": 14,
+      "diskUsageMB": 0.01,
+      "isPrivate": true,
+      "updatedAt": "2023-07-18T12:42:00Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tomos_service",
+      "diskUsageKB": 78,
+      "diskUsageMB": 0.08,
+      "isPrivate": true,
+      "updatedAt": "2021-08-27T14:52:20Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tomos_teles",
+      "diskUsageKB": 392,
+      "diskUsageMB": 0.38,
+      "isPrivate": true,
+      "updatedAt": "2022-01-12T12:37:01Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "Radio-Memory/tomoservice",
+      "diskUsageKB": 167604,
+      "diskUsageMB": 163.68,
+      "isPrivate": true,
+      "updatedAt": "2022-04-26T18:00:48Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "fabioand/Mapa-Metabolico",
+      "diskUsageKB": 62,
+      "diskUsageMB": 0.06,
+      "isPrivate": true,
+      "updatedAt": "2026-03-18T03:40:35Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "fabioand/Radio3D",
+      "diskUsageKB": 541,
+      "diskUsageMB": 0.53,
+      "isPrivate": true,
+      "updatedAt": "2026-03-18T01:16:46Z",
+      "error": null
+    },
+    {
+      "nameWithOwner": "fabioand/tomonav-mobile",
+      "diskUsageKB": 76506,
+      "diskUsageMB": 74.71,
+      "isPrivate": true,
+      "updatedAt": "2026-03-18T01:02:59Z",
+      "error": null
+    }
+  ]
+}

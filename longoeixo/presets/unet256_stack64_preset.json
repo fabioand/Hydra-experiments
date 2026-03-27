@@ -1,0 +1,122 @@
+{
+  "name": "unet256_stack64_v1",
+  "task": "tooth_long_axis_point_heatmaps",
+  "input": {
+    "channels": 1,
+    "size": [
+      256,
+      256
+    ],
+    "dtype": "float32",
+    "normalize": {
+      "mode": "minmax_0_1",
+      "in_range": [
+        0,
+        255
+      ],
+      "out_range": [
+        0.0,
+        1.0
+      ]
+    },
+    "resize": {
+      "method": "direct",
+      "interpolation": "INTER_AREA"
+    }
+  },
+  "target": {
+    "format": "stack64",
+    "shape": [
+      64,
+      256,
+      256
+    ],
+    "dtype": "float32",
+    "value_range": [
+      0.0,
+      1.0
+    ],
+    "resize": {
+      "interpolation": "INTER_LINEAR",
+      "clip_to_0_1": true
+    },
+    "channel_order_file": "channel_order_64.txt"
+  },
+  "heatmap_generation": {
+    "recommended_target_resolution": "input.size",
+    "sigma_px_target": 5.2,
+    "radius_px_target": "ceil(3*sigma)",
+    "note": "generate gaussian directly on final training grid"
+  },
+  "augmentation": {
+    "horizontal_flip_p": 0.0,
+    "rotation_deg": 7.0,
+    "scale_range": [
+      0.95,
+      1.05
+    ],
+    "translate_frac": 0.03,
+    "intensity": {
+      "brightness_delta": 0.1,
+      "contrast_range": [
+        0.9,
+        1.1
+      ]
+    },
+    "apply_same_geometric_transform_to_input_and_target": true,
+    "apply_intensity_only_to_input": true,
+    "vertical_flip_p": 0.0,
+    "noise": {
+      "enabled": true,
+      "apply_only_to_input": true,
+      "overall_p": 0.35,
+      "patterns": [
+        {
+          "type": "gaussian_additive",
+          "p": 0.55,
+          "std_range": [
+            0.005,
+            0.02
+          ]
+        },
+        {
+          "type": "poisson",
+          "p": 0.25,
+          "scale_range": [
+            0.9,
+            1.1
+          ]
+        },
+        {
+          "type": "speckle_multiplicative",
+          "p": 0.2,
+          "std_range": [
+            0.003,
+            0.012
+          ]
+        }
+      ]
+    }
+  },
+  "training": {
+    "batch_size": 8,
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "loss": {
+      "type": "weighted_mse_plus_soft_dice",
+      "weights": {
+        "mse": 0.8,
+        "soft_dice": 0.2
+      }
+    },
+    "epochs": 120,
+    "early_stopping_patience": 20,
+    "amp": true
+  },
+  "inference": {
+    "output_channels": 64,
+    "point_extraction": "argmax_per_channel",
+    "confidence": "max_value_per_channel"
+  }
+}

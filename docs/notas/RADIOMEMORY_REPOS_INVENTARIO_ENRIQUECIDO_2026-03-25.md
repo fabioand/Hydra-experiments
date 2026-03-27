@@ -1,0 +1,972 @@
+# Inventario Enriquecido de Repositorios (Leitura de docs e codigo)
+
+- Data: 2026-03-25
+- Repositorios analisados: 78
+- Método: leitura de metadados + README + docs + arquivos-chave de implementação via GitHub API (somente leitura).
+
+## Organizacao: Radio-Memory (75)
+
+### API e Servicos (16)
+
+- **Radio-Memory/RadioServer-Classificador**
+  - URL: https://github.com/Radio-Memory/RadioServer-Classificador
+  - De que se trata / objetivo: Projeto RadioServer-Classificador do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); empacotamento/execução em contêiner
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-10-18T17:41:00Z)
+  - Evidencias lidas: Dockerfile, docker-compose.yaml, app.py, lambda_function.py, server.py, environment.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/ai-api**
+  - URL: https://github.com/Radio-Memory/ai-api
+  - De que se trata / objetivo: * terraform: contem os arquivos de infraestrutura que definem o ambiente de produção e desenvolvimento; Cada ambiente é definido por um workspace; Toda a infraestrutura criada necessária, desde de VPC, subnets, security groups, instancias, etc, são criadas e segregadas entre os ambientes. Ambiente de teste pode ser mod
+  - O que implementa hoje: serviço/API para inferência ou integração; interface/demo para inspeção de resultados; empacotamento/execução em contêiner; tarefas de segmentação de imagens odontológicas; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (172), hiagop22 (46), chirlgava (43)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-03-21T15:04:54Z)
+  - Evidencias lidas: README.md, services/api/present/main.py, services/dashboard/app.py, services/panoramics/app.py, services/periapicals/app.py, services/tomos/app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/ai-api-lambda**
+  - URL: https://github.com/Radio-Memory/ai-api-lambda
+  - De que se trata / objetivo: Projeto ai-api-lambda do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); tarefas de segmentação de imagens odontológicas; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (42), chirlgava (14), hiagop22 (1)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-01-29T18:32:03Z)
+  - Evidencias lidas: services/api/app.py, services/panoramics/app.py, services/periapicals/app.py, services/tomos/app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/api**
+  - URL: https://github.com/Radio-Memory/api
+  - De que se trata / objetivo: ![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Publico
+  - Tipo: Fork
+  - Linguagem principal: JavaScript
+  - Colaboradores (top API): andrelbarros (110), voiskibrasil (4), luizcgaRM (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-01T15:34:12Z)
+  - Evidencias lidas: README.md, ia/classify/README.md, ia/describe/README.md, service/subscribe/README.md
+  - Confianca descritiva: alta
+- **Radio-Memory/ia-lambda**
+  - URL: https://github.com/Radio-Memory/ia-lambda
+  - De que se trata / objetivo: This repository contain projects based on `chalice` framework for deploying AI models on AWS lambda service.
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); empacotamento/execução em contêiner; tarefas de segmentação de imagens odontológicas; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (14), czrcbl (2), chirlgava (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-07-03T23:10:35Z)
+  - Evidencias lidas: README.md, all-models/README.md, ocr-tesseract/README.md, procedimentos/README.md, requirements.txt, all-models/app.py, classificador/app.py, classificador/chalicelib/app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/lambda-docker-onnx**
+  - URL: https://github.com/Radio-Memory/lambda-docker-onnx
+  - De que se trata / objetivo: Endpoints name convention
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); empacotamento/execução em contêiner; tarefas de segmentação de imagens odontológicas; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (13), chirlgava (13), hiagop22 (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-11-04T17:03:46Z)
+  - Evidencias lidas: README.md, Dockerfile, requirements.txt, app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/longoeixo_periapical**
+  - URL: https://github.com/Radio-Memory/longoeixo_periapical
+  - De que se trata / objetivo: Code related to semantic segmentation and related tasks
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (30), czrcbl (17)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-08-16T21:25:16Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/longoeixo_service**
+  - URL: https://github.com/Radio-Memory/longoeixo_service
+  - De que se trata / objetivo: Projeto longoeixo_service do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); empacotamento/execução em contêiner
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-13T20:41:09Z)
+  - Evidencias lidas: README.md, requirements.txt, app.py, requirements-gpu.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/portal_api**
+  - URL: https://github.com/Radio-Memory/portal_api
+  - De que se trata / objetivo: Projeto portal_api do ecossistema Radio-Memory.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): francissantiagoRM (8), BrunoR02 (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-07-14T14:09:11Z)
+  - Evidencias lidas: README.md, package.json
+  - Confianca descritiva: media
+- **Radio-Memory/radiomemory-ai-api-demo**
+  - URL: https://github.com/Radio-Memory/radiomemory-ai-api-demo
+  - De que se trata / objetivo: This repository contains a demo of the Radio Memory AI API, with sample code in Python.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Publico
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): czrcbl (16), hiagop22 (15)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-01-12T14:10:25Z)
+  - Evidencias lidas: README.md
+  - Confianca descritiva: baixa
+- **Radio-Memory/rmannotations_server**
+  - URL: https://github.com/Radio-Memory/rmannotations_server
+  - De que se trata / objetivo: `Python` backend for the annotations `vue` frontend.
+  - O que implementa hoje: serviço/API para inferência ou integração
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-10-25T21:55:27Z)
+  - Evidencias lidas: README.md, requirements.txt, app.py
+  - Confianca descritiva: media
+- **Radio-Memory/segmentacao_templates**
+  - URL: https://github.com/Radio-Memory/segmentacao_templates
+  - De que se trata / objetivo: Segmenta as imagens panorâmicas, periapicais e interproximais dos templates utilizando o open-cv.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada); interface/demo para inspeção de resultados; gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-07-13T01:29:01Z)
+  - Evidencias lidas: README.md, requirements.txt, main.py, streamLit/app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/teladash_service_internal**
+  - URL: https://github.com/Radio-Memory/teladash_service_internal
+  - De que se trata / objetivo: Serviços tela dash internos
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada); interface/demo para inspeção de resultados
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): PhilRM (55), augusto-Rm (21), francissantiagoRM (2)
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-24T01:31:50Z)
+  - Evidencias lidas: package.json
+  - Confianca descritiva: baixa
+- **Radio-Memory/tomocutter_lambda**
+  - URL: https://github.com/Radio-Memory/tomocutter_lambda
+  - De que se trata / objetivo: Projeto tomocutter_lambda do ecossistema Radio-Memory.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): chirlgava (49)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-01-06T18:39:25Z)
+  - Evidencias lidas: info.txt
+  - Confianca descritiva: baixa
+- **Radio-Memory/tomos_service**
+  - URL: https://github.com/Radio-Memory/tomos_service
+  - De que se trata / objetivo: Deploy:
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); empacotamento/execução em contêiner
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-14T20:13:47Z)
+  - Evidencias lidas: README.md, requirements.txt, app.py, requirements-gpu.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/tomoservice**
+  - URL: https://github.com/Radio-Memory/tomoservice
+  - De que se trata / objetivo: Serviços para geração de tomografias
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): voiskibrasil (116), radiomemory (2)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-01-05T14:20:06Z)
+  - Evidencias lidas: README.md, package.json, requirements.txt, requirements_lambda.txt
+  - Confianca descritiva: alta
+
+### Apps, Demos e Frontend (5)
+
+- **Radio-Memory/abaimpressao**
+  - URL: https://github.com/Radio-Memory/abaimpressao
+  - De que se trata / objetivo: This project was generated with Angular CLI version 9.1.15.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (top API): ccartibani (3), Gilson-WK (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-09-21T05:43:59Z)
+  - Evidencias lidas: README.md
+  - Confianca descritiva: baixa
+- **Radio-Memory/angular2-useful-swiper**
+  - URL: https://github.com/Radio-Memory/angular2-useful-swiper
+  - De que se trata / objetivo: Use iDangero.us's great slider [Swiper](http://idangero.us/swiper/#.V9C3w4VOLaI) in Angular.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Publico
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): JayChase (39), diego-radiomemory (14), dependabot[bot] (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-07-29T21:53:17Z)
+  - Evidencias lidas: README.md, dist/ngx-useful-swiper/README.md, projects/ngx-useful-swiper/README.md, package.json, license.md
+  - Confianca descritiva: alta
+- **Radio-Memory/artigos_cards_componente**
+  - URL: https://github.com/Radio-Memory/artigos_cards_componente
+  - De que se trata / objetivo: This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): francissantiagoRM (18)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-02-17T18:17:35Z)
+  - Evidencias lidas: README.md, package.json
+  - Confianca descritiva: media
+- **Radio-Memory/ia-demo**
+  - URL: https://github.com/Radio-Memory/ia-demo
+  - De que se trata / objetivo: Projeto ia-demo do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; interface/demo para inspeção de resultados; empacotamento/execução em contêiner; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-07-27T17:36:44Z)
+  - Evidencias lidas: Dockerfile, docker-compose.yaml, requirements.txt, app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/ngx-lazy-el**
+  - URL: https://github.com/Radio-Memory/ngx-lazy-el
+  - De que se trata / objetivo: [![npm version](https://badge.fury.io/js/%40juristr%2Fngx-lazy-el.svg)](https://badge.fury.io/js/%40juristr%2Fngx-lazy-el)
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Publico
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): juristr (27), diego-radiomemory (16)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-07-30T20:03:59Z)
+  - Evidencias lidas: README.md, package.json
+  - Confianca descritiva: media
+
+### Dados e Datasets (6)
+
+- **Radio-Memory/dcm-converter**
+  - URL: https://github.com/Radio-Memory/dcm-converter
+  - De que se trata / objetivo: Projeto dcm-converter do ecossistema Radio-Memory.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (8)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-06-17T13:38:55Z)
+  - Evidencias lidas: pyproject.toml, requirements.txt, app.py
+  - Confianca descritiva: media
+- **Radio-Memory/ia_downloader**
+  - URL: https://github.com/Radio-Memory/ia_downloader
+  - De que se trata / objetivo: Projeto ia_downloader do ecossistema Radio-Memory.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (3)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-10-30T16:15:23Z)
+  - Evidencias lidas: requirements.txt, app.py
+  - Confianca descritiva: media
+- **Radio-Memory/ia_tomo_downloader**
+  - URL: https://github.com/Radio-Memory/ia_tomo_downloader
+  - De que se trata / objetivo: Projeto ia_tomo_downloader do ecossistema Radio-Memory.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (11)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-04T20:21:48Z)
+  - Evidencias lidas: requirements.txt, app.py
+  - Confianca descritiva: media
+- **Radio-Memory/rdn_extractor**
+  - URL: https://github.com/Radio-Memory/rdn_extractor
+  - De que se trata / objetivo: Projeto rdn_extractor do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-11-01T13:10:58Z)
+  - Evidencias lidas: main.py, unit NetFileCreator.txt, unit NetFileReader.txt
+  - Confianca descritiva: media
+- **Radio-Memory/rmdatasets**
+  - URL: https://github.com/Radio-Memory/rmdatasets
+  - De que se trata / objetivo: Repositório para controle de versão dos datasets utilizados nos projetos de IA.
+  - O que implementa hoje: gestão/preparo de datasets e anotações
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (12)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-08-02T17:51:12Z)
+  - Evidencias lidas: README.md, metadata/mista/manual_labels/result_human/README.md, setup.py
+  - Confianca descritiva: media
+- **Radio-Memory/rmmining**
+  - URL: https://github.com/Radio-Memory/rmmining
+  - De que se trata / objetivo: Projeto rmmining do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-07-30T19:23:15Z)
+  - Evidencias lidas: setup.py
+  - Confianca descritiva: baixa
+
+### Infra e Deploy (2)
+
+- **Radio-Memory/kubernetes-deploy**
+  - URL: https://github.com/Radio-Memory/kubernetes-deploy
+  - De que se trata / objetivo: Endpoints name convention
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada); empacotamento/execução em contêiner; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Fork
+  - Linguagem principal: Python
+  - Colaboradores (top API): chirlgava (8), czrcbl (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-09-12T14:15:47Z)
+  - Evidencias lidas: README.md, Dockerfile, requirements.txt
+  - Confianca descritiva: media
+- **Radio-Memory/org-settings**
+  - URL: https://github.com/Radio-Memory/org-settings
+  - De que se trata / objetivo: Projeto org-settings do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-04-18T12:11:37Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+
+### Outros (29)
+
+- **Radio-Memory/-alinhamento_oclusais-**
+  - URL: https://github.com/Radio-Memory/-alinhamento_oclusais-
+  - De que se trata / objetivo: Projeto -alinhamento_oclusais- do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-04-27T18:37:43Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+- **Radio-Memory/Transaxiais-local**
+  - URL: https://github.com/Radio-Memory/Transaxiais-local
+  - De que se trata / objetivo: Projeto Transaxiais-local do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada); tarefas de segmentação de imagens odontológicas; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): chirlgava (70)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-02-03T13:16:34Z)
+  - Evidencias lidas: requirements.txt, main.py, debug_log.txt, important_libs.txt, index.txt, reqs_test.txt, requirements_update.txt, s3download.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/alinhamento_oclusais**
+  - URL: https://github.com/Radio-Memory/alinhamento_oclusais
+  - De que se trata / objetivo: Projeto alinhamento_oclusais do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; interface/demo para inspeção de resultados
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): chirlgava (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-04-27T18:28:07Z)
+  - Evidencias lidas: requirements.txt, app.py, start.txt, tmux.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/anomalias**
+  - URL: https://github.com/Radio-Memory/anomalias
+  - De que se trata / objetivo: Projeto anomalias do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (4)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-12-21T14:06:44Z)
+  - Evidencias lidas: requirements.txt, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada**
+  - URL: https://github.com/Radio-Memory/base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada
+  - De que se trata / objetivo: Projeto base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): danielpm153 (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-04T00:56:11Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+- **Radio-Memory/cefbot**
+  - URL: https://github.com/Radio-Memory/cefbot
+  - De que se trata / objetivo: > `npm install --save @types/events`
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): radiomemory (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-06-10T21:04:07Z)
+  - Evidencias lidas: annotation/node_modules/@types/events/README.md, annotation/node_modules/@types/jsonwebtoken/README.md, annotation/node_modules/@types/node/README.md, annotation/node_modules/accepts/README.md, annotation/node_modules/array-flatten/README.md, annotation/node_modules/body-parser/README.md, annotation/node_modules/buffer-equal-constant-time/README.md, annotation/node_modules/bytes/Readme.md
+  - Confianca descritiva: alta
+- **Radio-Memory/classificador**
+  - URL: https://github.com/Radio-Memory/classificador
+  - De que se trata / objetivo: Projeto classificador do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-06T18:43:06Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+- **Radio-Memory/classificador-onnx**
+  - URL: https://github.com/Radio-Memory/classificador-onnx
+  - De que se trata / objetivo: Projeto classificador-onnx do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; deploy/serverless em AWS (Lambda/infra associada)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-01-31T00:19:21Z)
+  - Evidencias lidas: app.py, chalicelib/app.py
+  - Confianca descritiva: media
+- **Radio-Memory/curves**
+  - URL: https://github.com/Radio-Memory/curves
+  - De que se trata / objetivo: Projeto curves do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-04T18:15:28Z)
+  - Evidencias lidas: src/train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/denticao_keras**
+  - URL: https://github.com/Radio-Memory/denticao_keras
+  - De que se trata / objetivo: Projeto denticao_keras do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-13T13:45:22Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/desdentados**
+  - URL: https://github.com/Radio-Memory/desdentados
+  - De que se trata / objetivo: Projeto desdentados do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-13T13:51:08Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/filtro_sagital**
+  - URL: https://github.com/Radio-Memory/filtro_sagital
+  - De que se trata / objetivo: <!-- pip install git+https://github.com/Radio-Memory/rmtorch.git@v0.0.2 --> pip install git+https://github.com/Radio-Memory/rmtorch.git
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (16)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-11-22T18:45:49Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/get_tomo_views**
+  - URL: https://github.com/Radio-Memory/get_tomo_views
+  - De que se trata / objetivo: Projeto get_tomo_views do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-04-27T20:41:10Z)
+  - Evidencias lidas: main.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/ia-docs**
+  - URL: https://github.com/Radio-Memory/ia-docs
+  - De que se trata / objetivo: Documentações de IA
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino)
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-12-29T13:35:34Z)
+  - Evidencias lidas: README.md, dataminer_data.md, repositories.md
+  - Confianca descritiva: media
+- **Radio-Memory/longo-eixo-dente-individual**
+  - URL: https://github.com/Radio-Memory/longo-eixo-dente-individual
+  - De que se trata / objetivo: Projeto longo-eixo-dente-individual do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): danielpm153 (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-08T01:18:08Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+- **Radio-Memory/metais**
+  - URL: https://github.com/Radio-Memory/metais
+  - De que se trata / objetivo: Projeto metais do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): hiagop22 (1), czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-04T19:15:49Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/oclusal_deteccao_recorte_tensorflow**
+  - URL: https://github.com/Radio-Memory/oclusal_deteccao_recorte_tensorflow
+  - De que se trata / objetivo: Projeto oclusal_deteccao_recorte_tensorflow do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): danielpm153 (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-08T01:27:50Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+- **Radio-Memory/peri_class**
+  - URL: https://github.com/Radio-Memory/peri_class
+  - De que se trata / objetivo: Projeto peri_class do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-03-07T18:25:05Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+- **Radio-Memory/pontos_cefalometria_memae**
+  - URL: https://github.com/Radio-Memory/pontos_cefalometria_memae
+  - De que se trata / objetivo: Detect errors from cephalometrics points, in specific, the output of CEFBOT.
+  - O que implementa hoje: interface/demo para inspeção de resultados; gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (15)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-12-15T07:41:02Z)
+  - Evidencias lidas: README.md, requirements.txt, main.py, streamLit/app.py
+  - Confianca descritiva: alta
+- **Radio-Memory/position-anomalies**
+  - URL: https://github.com/Radio-Memory/position-anomalies
+  - De que se trata / objetivo: Analise e estudos das anomalias relativas ao posicionamento dos dentes em imagens panorâmicas.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): pauloj626 (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-01T20:48:03Z)
+  - Evidencias lidas: README.md
+  - Confianca descritiva: baixa
+- **Radio-Memory/procedimentos**
+  - URL: https://github.com/Radio-Memory/procedimentos
+  - De que se trata / objetivo: <!-- pip install git+https://github.com/Radio-Memory/rmtorch.git@v0.0.2 --> pip install git+https://github.com/Radio-Memory/rmtorch.git
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-24T16:12:27Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/rmdetectron2**
+  - URL: https://github.com/Radio-Memory/rmdetectron2
+  - De que se trata / objetivo: Projeto rmdetectron2 do ecossistema Radio-Memory.
+  - O que implementa hoje: deploy/serverless em AWS (Lambda/infra associada); gestão/preparo de datasets e anotações
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos; cobre fluxo fim-a-fim de treino e inferência
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-21T17:34:47Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/rmia**
+  - URL: https://github.com/Radio-Memory/rmia
+  - De que se trata / objetivo: Radio Memory's Artificial intelligence repository.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos; cobre fluxo fim-a-fim de treino e inferência
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): czrcbl (191)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-01T19:25:47Z)
+  - Evidencias lidas: README.md, libs/inference/README.md, mining/papaiz_imp/README.md, projects/README.md, projects/aireports/README.md, projects/denticao/README.md, projects/keypoints/README.md, projects/teles/README.md
+  - Confianca descritiva: alta
+- **Radio-Memory/rmtorch**
+  - URL: https://github.com/Radio-Memory/rmtorch
+  - De que se trata / objetivo: Code for projects that use `pytorch` as DL framework.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal, arquivado
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-06-30T18:43:06Z)
+  - Evidencias lidas: README.md, setup.py, rmtorch/lightning/train.py
+  - Confianca descritiva: media
+- **Radio-Memory/tcls_torch**
+  - URL: https://github.com/Radio-Memory/tcls_torch
+  - De que se trata / objetivo: This repository contains two packages: * tcls: code for training and evaluation models * manage: code for managing data.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal, arquivado
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (22)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-06-02T19:25:12Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/teeth_detection**
+  - URL: https://github.com/Radio-Memory/teeth_detection
+  - De que se trata / objetivo: Teeth detection with a FasterR-CNN. The code uses Torchvision implementation through pytorch-lightning-bolts.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-07-13T16:47:36Z)
+  - Evidencias lidas: README.md, setup.py, nbs/train.py, train.py
+  - Confianca descritiva: alta
+- **Radio-Memory/tomocutter-AI**
+  - URL: https://github.com/Radio-Memory/tomocutter-AI
+  - De que se trata / objetivo: Projeto tomocutter-AI do ecossistema Radio-Memory.
+  - O que implementa hoje: serviço/API para inferência ou integração; empacotamento/execução em contêiner
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): chirlgava (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-12-04T18:01:29Z)
+  - Evidencias lidas: requirements.txt, main.py, a.txt, requirements2.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/tomos**
+  - URL: https://github.com/Radio-Memory/tomos
+  - De que se trata / objetivo: Projeto tomos do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); empacotamento/execução em contêiner; gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-07-18T12:41:54Z)
+  - Evidencias lidas: Dockerfile, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/tomos_teles**
+  - URL: https://github.com/Radio-Memory/tomos_teles
+  - De que se trata / objetivo: Projeto tomos_teles do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-03-29T15:11:07Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+
+### Pesquisa e Prototipos (5)
+
+- **Radio-Memory/Pearl**
+  - URL: https://github.com/Radio-Memory/Pearl
+  - De que se trata / objetivo: Projeto Pearl do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: HTML
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-10-29T21:33:31Z)
+  - Evidencias lidas: organization-data.txt
+  - Confianca descritiva: baixa
+- **Radio-Memory/Realidade-Aumentada**
+  - URL: https://github.com/Radio-Memory/Realidade-Aumentada
+  - De que se trata / objetivo: <h1 align="center">AR.js & A-Frame Gestures</h1>
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: HTML
+  - Colaboradores (top API): pauloj626 (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-16T16:15:09Z)
+  - Evidencias lidas: AR_web/AR_TouchEvent/ARTest/README.md, AR_web/AR_TouchEvent/arjs-gestures-master/README.md, README.md
+  - Confianca descritiva: media
+- **Radio-Memory/sample_clearml_project**
+  - URL: https://github.com/Radio-Memory/sample_clearml_project
+  - De que se trata / objetivo: Projeto sample_clearml_project do ecossistema Radio-Memory.
+  - O que implementa hoje: empacotamento/execução em contêiner; gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal, arquivado
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-09-19T15:29:24Z)
+  - Evidencias lidas: requirements.txt, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/segmentacao-panoramica-tensorflow-artigo**
+  - URL: https://github.com/Radio-Memory/segmentacao-panoramica-tensorflow-artigo
+  - De que se trata / objetivo: Projeto segmentacao-panoramica-tensorflow-artigo do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): pauloj626 (3)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-02T00:25:52Z)
+  - Evidencias lidas: README.md
+  - Confianca descritiva: baixa
+- **Radio-Memory/templates-idoc**
+  - URL: https://github.com/Radio-Memory/templates-idoc
+  - De que se trata / objetivo: Projeto templates-idoc do ecossistema Radio-Memory.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: HTML
+  - Colaboradores (top API): eduardo-radiomemory (4), diego-radiomemory (3)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-11-13T19:16:32Z)
+  - Evidencias lidas: N/D
+  - Confianca descritiva: baixa
+
+### Treinamento e Modelos (12)
+
+- **Radio-Memory/ai-training**
+  - URL: https://github.com/Radio-Memory/ai-training
+  - De que se trata / objetivo: Monorepo of training code.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); interface/demo para inspeção de resultados; empacotamento/execução em contêiner; gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas; tarefas cefalométricas (keypoints/regressão de medidas)
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (174), czrcbl (88), chirlgava (51)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-02-13T13:05:58Z)
+  - Evidencias lidas: README.md, libs/rmutils/README.md, train/autoencoder/train.py, train/classification/train.py, train/cmt_classification/train.py, train/heatmap_anomalies/train.py, train/name_email/train.py, train/object_detection/train.py
+  - Confianca descritiva: alta
+- **Radio-Memory/autoencoder_longoeixo**
+  - URL: https://github.com/Radio-Memory/autoencoder_longoeixo
+  - De que se trata / objetivo: Projeto autoencoder_longoeixo do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-06T09:09:01Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/cef_keypoints**
+  - URL: https://github.com/Radio-Memory/cef_keypoints
+  - De que se trata / objetivo: Detect keypoints on images.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-11-30T13:22:24Z)
+  - Evidencias lidas: README.md
+  - Confianca descritiva: baixa
+- **Radio-Memory/classification**
+  - URL: https://github.com/Radio-Memory/classification
+  - De que se trata / objetivo: Generic project for classification models.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-11-24T18:43:56Z)
+  - Evidencias lidas: README.md, setup.py, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/cyclegan**
+  - URL: https://github.com/Radio-Memory/cyclegan
+  - De que se trata / objetivo: Code related to semantic segmentation and related tasks
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); deploy/serverless em AWS (Lambda/infra associada); gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (9)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-02-15T11:17:26Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/face_marching_keypoints**
+  - URL: https://github.com/Radio-Memory/face_marching_keypoints
+  - De que se trata / objetivo: Projeto face_marching_keypoints do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (4)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-16T14:15:57Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+- **Radio-Memory/keypoints**
+  - URL: https://github.com/Radio-Memory/keypoints
+  - De que se trata / objetivo: Or in fish shell:
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); interface/demo para inspeção de resultados; gestão/preparo de datasets e anotações; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos; cobre fluxo fim-a-fim de treino e inferência
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-07-13T17:15:59Z)
+  - Evidencias lidas: README.md, setup.py, scripts/predict.py, streamlit/longoeixo/app.py, train.py
+  - Confianca descritiva: alta
+- **Radio-Memory/longoeixo**
+  - URL: https://github.com/Radio-Memory/longoeixo
+  - De que se trata / objetivo: Experimentos relacionados à deteção de pontos que marcam o longo eixo de dentes em radiografias panorâmicas.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); interface/demo para inspeção de resultados; gestão/preparo de datasets e anotações; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos; cobre fluxo fim-a-fim de treino e inferência
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): czrcbl (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-26T05:51:07Z)
+  - Evidencias lidas: README.md, setup.py, scripts/predict.py, streamlit/longoeixo/app.py, train.py, requirements-dev.txt, requirements-train.txt
+  - Confianca descritiva: alta
+- **Radio-Memory/semantic**
+  - URL: https://github.com/Radio-Memory/semantic
+  - De que se trata / objetivo: Code related to semantic segmentation and related tasks
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); interface/demo para inspeção de resultados; gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas; detecção de longo eixo/dentição e derivação de pontos
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos; cobre fluxo fim-a-fim de treino e inferência
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (top API): czrcbl (17)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-12-30T15:08:11Z)
+  - Evidencias lidas: README.md, requirements.txt, setup.py, scripts/predict.py, semantic/inference.py, streamlit/longoeixo/app.py, train.py
+  - Confianca descritiva: alta
+- **Radio-Memory/spagan_face2marching**
+  - URL: https://github.com/Radio-Memory/spagan_face2marching
+  - De que se trata / objetivo: Code related to semantic segmentation and related tasks
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); deploy/serverless em AWS (Lambda/infra associada); gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-13T15:18:45Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/spagan_tomo2tele**
+  - URL: https://github.com/Radio-Memory/spagan_tomo2tele
+  - De que se trata / objetivo: Code related to semantic segmentation and related tasks
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); deploy/serverless em AWS (Lambda/infra associada); gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): hiagop22 (8)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-03-18T18:04:00Z)
+  - Evidencias lidas: README.md, train.py
+  - Confianca descritiva: media
+- **Radio-Memory/teeth_semantic_segmentation**
+  - URL: https://github.com/Radio-Memory/teeth_semantic_segmentation
+  - De que se trata / objetivo: Projeto teeth_semantic_segmentation do ecossistema Radio-Memory.
+  - O que implementa hoje: pipeline de treinamento de modelos de IA (scripts/configs de treino); gestão/preparo de datasets e anotações; tarefas de segmentação de imagens odontológicas
+  - O que pretende/foco: foco principal inferido pelos arquivos atuais do repositório
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (top API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-04-25T20:30:29Z)
+  - Evidencias lidas: train.py
+  - Confianca descritiva: baixa
+
+## Organizacao: fabioand (3)
+
+### Apps, Demos e Frontend (1)
+
+- **fabioand/tomonav-mobile**
+  - URL: https://github.com/fabioand/tomonav-mobile
+  - De que se trata / objetivo: Projeto separado para o novo TomoNav Mobile, mantendo `tomo-nav/` como referencia desktop.
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Vue
+  - Colaboradores (top API): N/D
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-18T01:02:55Z)
+  - Evidencias lidas: README.md, public/fixtures/README.md, docs/EC2-Deploy-Seguro.md, docs/Implementacao-Atualizacoes-2026-03-09.md, docs/Implementacao-Sprint1-Prototipo.md, docs/Implementacao-Sprint1.5-Medidas.md, docs/Prompt-Sprint-1.5-Medidas.md, docs/Prompt-Sprint-3D-Ortho-MPR.md
+  - Confianca descritiva: alta
+
+### Outros (2)
+
+- **fabioand/Mapa-Metabolico**
+  - URL: https://github.com/fabioand/Mapa-Metabolico
+  - De que se trata / objetivo: Status do projeto: - Sprint 0: concluido - Sprint 1: concluido - Sprint 2: concluido - Sprint 3: em andamento (graficos temporais em tempo real e seletor de curvas)
+  - O que implementa hoje: estrutura de projeto sem sinais fortes de domínio além da descrição disponível
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: JavaScript
+  - Colaboradores (top API): N/D
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-18T03:40:32Z)
+  - Evidencias lidas: README.md, krebbs-sim-mvp/README.md, Conversa sobre enzimas.md, Metabolic Map Sim - Projeto Definitivo.md, Plano de Sprints - Metabolic Map Sim.md, metabolic-map-sim Visao e projeto MVP.md, simulacoes de enzimas.md
+  - Confianca descritiva: alta
+- **fabioand/Radio3D**
+  - URL: https://github.com/fabioand/Radio3D
+  - De que se trata / objetivo: - `tomoserver_sim_callgraph.json`: call graph em JSON. - `tomoserver_sim_callgraph_domains_dedup.html`: visual interativo com dominios e arestas deduplicadas. - `DOMAIN_DEDUP_SUMMARY.md`: resumo de deduplicacao e contagem por dominio.
+  - O que implementa hoje: serviço/API para inferência ou integração
+  - O que pretende/foco: há indícios de evolução planejada/itens futuros nos artefatos lidos; inclui contexto experimental/benchmark de modelos
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: TypeScript
+  - Colaboradores (top API): N/D
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-18T19:18:46Z)
+  - Evidencias lidas: services/tomoserver-sim/reports/graph/20260316T152842/README.md, tomodiag-proposta/README.md, tomodiag-visual-lab/README.md, tomodiag-visual-lab/benchmarks/baseline/README.md, tomodiag-visual-lab/reports/graph/20260316T152842/README.md, tomodiag-visual-lab/reports/graph/20260317T183546/README.md, tomonav-mobile-reference/README.md, services/tomoserver-sim/app/main.py
+  - Confianca descritiva: alta

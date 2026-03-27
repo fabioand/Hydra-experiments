@@ -1,0 +1,59 @@
+# Python
+.venv/
+**/.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Training/generated artifacts
+longoeixo/gaussian_maps*/
+longoeixo/aug_inspection*/
+longoeixo/train_visuals*/
+longoeixo/experiments/
+longoeixo/splits.json
+
+# Local temp outputs
+/tmp/
+
+# Local dataset sync (raw data)
+longoeixo/imgs/
+longoeixo/data_longoeixo/
+longoeixo/subsets/
+
+# Local runtime/process artifacts
+.tb*.pid
+tensorboard_*.log
+
+# Git history backups kept locally after repo reset
+.git_backup_*/
+
+# Generated experiment outputs
+longoeixo/checkpoints/
+longoeixo/onthefly_preview/
+analysis_inputs/
+attention_maps_*.jpg
+dae_longoeixo/checkpoints/
+dae_longoeixo/experiments/
+MetricasMultiROI-*/
+longoeixo/data_panorogram_curves128_*/
+radiomemory_api_tools/outputs/
+panorama_foundation/experiments/
+panorama_foundation/imported_ckpts/
+ae_radiograph_filter/outputs/
+
+# Official local checkpoints (keep only references, not binaries)
+hydra-checkpoints/**
+!hydra-checkpoints/
+!hydra-checkpoints/**/
+!hydra-checkpoints/**/.gitkeep
+!hydra-checkpoints/**/README.md
+!hydra-checkpoints/**/checkpoints.lock.json
+
+# Large model binaries should stay out of Git
+*.ckpt
+
+# Accidental temporary filenames from shell snippets
+{b:.4f})*
+workspace_repos/

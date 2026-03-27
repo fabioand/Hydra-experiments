@@ -1,0 +1,22 @@
+{
+  "task": {
+    "type": "classification",
+    "num_classes": 2,
+    "out_dim": 1,
+    "out_channels": 2
+  },
+  "paths": {
+    "encoder_checkpoint": "panorama_foundation/experiments/ae/runs/REPLACE_RUN/best_encoder.ckpt"
+  },
+  "model": {
+    "backbone": "resnet34",
+    "dropout": 0.1
+  },
+  "training": {
+    "weight_decay": 0.0001,
+    "lr_head_stage1": 0.001,
+    "lr_encoder_stage2": 0.00003,
+    "lr_head_stage2": 0.0003
+  }
+}
+

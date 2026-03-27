@@ -1,0 +1,66 @@
+{
+  "seed": 123,
+  "paths": {
+    "imgs_dir": "longoeixo/imgs",
+    "json_dir": "longoeixo/data_longoeixo",
+    "curves_json_dir": "longoeixo/data_panorogram_curves128_full999",
+    "splits_path": "dae_longoeixo/splits_partial_supervision.json",
+    "preset_path": "dae_longoeixo/presets/dae_coords_mlp_curves_reconall_v1.json",
+    "output_dir": "dae_longoeixo/experiments/coords_dae_curves_reconall"
+  },
+  "data": {
+    "max_samples": 0,
+    "sample_filter": "any_with_min_teeth",
+    "min_teeth_present": 1,
+    "require_curves_for_samples": true,
+    "discovery_progress_interval": 500
+  },
+  "split": {
+    "seed": 123,
+    "val_ratio": 0.2,
+    "test_ratio": 0.1
+  },
+  "training": {
+    "device": "auto",
+    "epochs": 120,
+    "batch_size": 64,
+    "num_workers": 4,
+    "prefetch_factor": 2,
+    "persistent_workers": true,
+    "lr": 0.0003,
+    "lr_min": 0.000001,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 20,
+    "amp": true,
+    "w_knocked": 0.85,
+    "w_observed": 0.15,
+    "w_all": 0.0,
+    "w_curves": 0.25,
+    "w_arc_spacing": 0.05,
+    "w_anchor_rel": 0.05,
+    "point_grid_size": 256,
+    "max_train_batches": 0,
+    "max_val_batches": 0
+  },
+  "visuals": {
+    "interval": 2,
+    "max_samples": 8
+  },
+  "evaluation": {
+    "batch_size": 128,
+    "num_workers": 2,
+    "prefetch_factor": 2,
+    "persistent_workers": true,
+    "num_knockout_passes": 3,
+    "num_visual_samples": 12
+  },
+  "smoke_test": {
+    "output_dir": "dae_longoeixo/experiments/coords_dae_curves_reconall_smoke",
+    "epochs": 3,
+    "batch_size": 16,
+    "max_train_batches": 3,
+    "max_val_batches": 2,
+    "visual_interval": 1,
+    "max_samples": 120
+  }
+}

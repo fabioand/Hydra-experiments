@@ -1,0 +1,74 @@
+{
+  "name": "dae_coords_mlp_v1",
+  "task": "tooth_long_axis_coordinate_imputation",
+  "coordinates": {
+    "canonical_teeth_order": "11..18,21..28,31..38,41..48",
+    "points_per_tooth": 2,
+    "coords_per_sample": 128,
+    "normalization": "x/(W-1), y/(H-1)",
+    "value_range": [0.0, 1.0],
+    "selection_rule": "usar somente exames com 32 dentes canônicos presentes e com 2 pontos por dente"
+  },
+  "knockout": {
+    "train": {
+      "sample_p": 1.0,
+      "min_teeth": 2,
+      "max_teeth": 10,
+      "deterministic": false
+    },
+    "val": {
+      "sample_p": 1.0,
+      "min_teeth": 2,
+      "max_teeth": 10,
+      "deterministic": true
+    },
+    "eval": {
+      "sample_p": 1.0,
+      "min_teeth": 2,
+      "max_teeth": 10,
+      "deterministic": true
+    }
+  },
+  "model": {
+    "type": "mlp_denoising_autoencoder",
+    "include_point_mask_in_input": true,
+    "hidden_dims": [512, 256],
+    "latent_dim": 128,
+    "dropout": 0.1,
+    "output_activation": "sigmoid"
+  },
+  "loss": {
+    "type": "weighted_mse",
+    "w_knocked": 0.85,
+    "w_observed": 0.15,
+    "w_all": 0.0,
+    "w_arc_spacing": 0.05,
+    "w_anchor_rel": 0.05
+  },
+  "augmentation": {
+    "horizontal_jitter": {
+      "enabled": true,
+      "p": 0.4,
+      "range": [
+        -0.015,
+        0.015
+      ],
+      "neighbor_boost": 1.4,
+      "neighbor_radius": 2,
+      "skip_knocked_teeth": true
+    }
+  },
+  "training": {
+    "batch_size": 64,
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "epochs": 120,
+    "early_stopping_patience": 20,
+    "amp": true
+  },
+  "evaluation": {
+    "num_knockout_passes": 3,
+    "point_grid_size": 256
+  }
+}

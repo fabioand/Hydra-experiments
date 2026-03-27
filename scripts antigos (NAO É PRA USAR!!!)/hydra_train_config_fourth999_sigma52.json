@@ -1,0 +1,64 @@
+{
+  "seed": 123,
+  "paths": {
+    "imgs_dir": "longoeixo/subsets/N999_seed123/imgs",
+    "json_dir": "longoeixo/subsets/N999_seed123/data_longoeixo",
+    "masks_dir": "longoeixo/gaussian_maps_stack64",
+    "splits_path": "longoeixo/subsets/N999_seed123/splits.json",
+    "preset_path": "longoeixo/presets/unet256_stack64_preset.json",
+    "output_dir": "longoeixo/experiments/hydra_unet_multitask"
+  },
+  "data": {
+    "source_mode": "on_the_fly"
+  },
+  "split": {
+    "seed": 123,
+    "val_ratio": 0.2
+  },
+  "model": {
+    "backbone": "resnet34",
+    "presence_dropout": 0.1
+  },
+  "training": {
+    "device": "auto",
+    "epochs": 30,
+    "batch_size": 4,
+    "num_workers": 4,
+    "prefetch_factor": 2,
+    "persistent_workers": true,
+    "lr": 0.0003,
+    "lr_min": 1e-06,
+    "weight_decay": 0.0001,
+    "early_stopping_patience": 8,
+    "amp": true,
+    "lambda_heatmap": 1.0,
+    "lambda_presence": 0.3,
+    "loss_mse": 0.8,
+    "loss_dice": 0.2,
+    "max_train_batches": 0,
+    "max_val_batches": 0
+  },
+  "visuals": {
+    "out_dir": "longoeixo/train_visuals",
+    "interval": 1,
+    "max_samples": 8
+  },
+  "evaluation": {
+    "batch_size": 4,
+    "num_workers": 2,
+    "prefetch_factor": 2,
+    "persistent_workers": true,
+    "threshold": 0.5,
+    "num_visual_samples": 8
+  },
+  "smoke_test": {
+    "masks_dir": "longoeixo/gaussian_maps_stack64_10",
+    "output_dir": "longoeixo/experiments/hydra_smoke",
+    "epochs": 3,
+    "batch_size": 2,
+    "max_train_batches": 2,
+    "max_val_batches": 2,
+    "visual_interval": 1
+  },
+  "active_run_preset": "FourthTest999_sigma52"
+}

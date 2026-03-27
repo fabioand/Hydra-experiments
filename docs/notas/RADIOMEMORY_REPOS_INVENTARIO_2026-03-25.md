@@ -1,0 +1,668 @@
+# Inventario de Repositorios GitHub (Radio-Memory + acessiveis)
+
+- Data: 2026-03-25
+- Total de repositorios mapeados: 78
+- Fonte: GitHub API via `gh` (somente leitura; sem alterar repositorios).
+
+## Legenda
+
+- Objetivo: descricao curta inferida de `description` e/ou README.
+- Abrangencia: publico/privado.
+- Tipo: repo principal/fork/arquivado.
+- Colaboradores: top contribuidores retornados pela API (quando disponivel).
+- Atividade recente: derivada de `pushedAt`.
+
+## Organizacao: Radio-Memory (75 repos)
+
+### API e Servicos (16)
+
+- **Radio-Memory/RadioServer-Classificador**
+  - URL: https://github.com/Radio-Memory/RadioServer-Classificador
+  - Objetivo: Projeto RadioServer-Classificador no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-10-18T17:41:00Z)
+- **Radio-Memory/ai-api**
+  - URL: https://github.com/Radio-Memory/ai-api
+  - Objetivo: * terraform: contem os arquivos de infraestrutura que definem o ambiente de produção e desenvolvimento; Cada ambiente é definido por um workspace;
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (172), hiagop22 (46), chirlgava (43)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-03-21T15:04:54Z)
+- **Radio-Memory/ai-api-lambda**
+  - URL: https://github.com/Radio-Memory/ai-api-lambda
+  - Objetivo: Projeto ai-api-lambda no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (42), chirlgava (14), hiagop22 (1)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-01-29T18:32:03Z)
+- **Radio-Memory/api**
+  - URL: https://github.com/Radio-Memory/api
+  - Objetivo: ![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
+  - Abrangencia: Publico
+  - Tipo: Fork
+  - Linguagem principal: JavaScript
+  - Colaboradores (API): andrelbarros (110), voiskibrasil (4), luizcgaRM (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-01T15:34:12Z)
+- **Radio-Memory/ia-lambda**
+  - URL: https://github.com/Radio-Memory/ia-lambda
+  - Objetivo: This repository contain projects based on `chalice` framework for deploying AI models on AWS lambda service.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (14), czrcbl (2), chirlgava (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-07-03T23:10:35Z)
+- **Radio-Memory/lambda-docker-onnx**
+  - URL: https://github.com/Radio-Memory/lambda-docker-onnx
+  - Objetivo: Endpoints name convention
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (13), chirlgava (13), hiagop22 (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-11-04T17:03:46Z)
+- **Radio-Memory/longoeixo_periapical**
+  - URL: https://github.com/Radio-Memory/longoeixo_periapical
+  - Objetivo: Code related to semantic segmentation and related tasks
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (30), czrcbl (17)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-08-16T21:25:16Z)
+- **Radio-Memory/longoeixo_service**
+  - URL: https://github.com/Radio-Memory/longoeixo_service
+  - Objetivo: ``` bash
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-13T20:41:09Z)
+- **Radio-Memory/portal_api**
+  - URL: https://github.com/Radio-Memory/portal_api
+  - Objetivo: Projeto portal_api no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): francissantiagoRM (8), BrunoR02 (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-07-14T14:09:11Z)
+- **Radio-Memory/radiomemory-ai-api-demo**
+  - URL: https://github.com/Radio-Memory/radiomemory-ai-api-demo
+  - Objetivo: This repository contains a demo of the Radio Memory AI API, with sample code in Python.
+  - Abrangencia: Publico
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): czrcbl (16), hiagop22 (15)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-01-12T14:10:25Z)
+- **Radio-Memory/rmannotations_server**
+  - URL: https://github.com/Radio-Memory/rmannotations_server
+  - Objetivo: `Python` backend for the annotations `vue` frontend.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-10-25T21:55:27Z)
+- **Radio-Memory/segmentacao_templates**
+  - URL: https://github.com/Radio-Memory/segmentacao_templates
+  - Objetivo: Segmenta as imagens panorâmicas, periapicais e interproximais dos templates utilizando o open-cv.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-07-13T01:29:01Z)
+- **Radio-Memory/teladash_service_internal**
+  - URL: https://github.com/Radio-Memory/teladash_service_internal
+  - Objetivo: Serviços tela dash internos
+  - Abrangencia: Privado
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): PhilRM (55), augusto-Rm (21), francissantiagoRM (2)
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-24T01:31:50Z)
+- **Radio-Memory/tomocutter_lambda**
+  - URL: https://github.com/Radio-Memory/tomocutter_lambda
+  - Objetivo: Projeto tomocutter_lambda no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): chirlgava (49)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-01-06T18:39:25Z)
+- **Radio-Memory/tomos_service**
+  - URL: https://github.com/Radio-Memory/tomos_service
+  - Objetivo: Deploy:
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-14T20:13:47Z)
+- **Radio-Memory/tomoservice**
+  - URL: https://github.com/Radio-Memory/tomoservice
+  - Objetivo: Serviços para geração de tomografias
+  - Abrangencia: Privado
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): voiskibrasil (116), radiomemory (2)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-01-05T14:20:06Z)
+
+### Apps, Demos e Frontend (5)
+
+- **Radio-Memory/abaimpressao**
+  - URL: https://github.com/Radio-Memory/abaimpressao
+  - Objetivo: This project was generated with Angular CLI version 9.1.15.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (API): ccartibani (3), Gilson-WK (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-09-21T05:43:59Z)
+- **Radio-Memory/angular2-useful-swiper**
+  - URL: https://github.com/Radio-Memory/angular2-useful-swiper
+  - Objetivo: Use iDangero.us' great slider, Swiper in Angular 2.
+  - Abrangencia: Publico
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): JayChase (39), diego-radiomemory (14), dependabot[bot] (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-07-29T21:53:17Z)
+- **Radio-Memory/artigos_cards_componente**
+  - URL: https://github.com/Radio-Memory/artigos_cards_componente
+  - Objetivo: This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): francissantiagoRM (18)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-02-17T18:17:35Z)
+- **Radio-Memory/ia-demo**
+  - URL: https://github.com/Radio-Memory/ia-demo
+  - Objetivo: Projeto ia-demo no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-07-27T17:36:44Z)
+- **Radio-Memory/ngx-lazy-el**
+  - URL: https://github.com/Radio-Memory/ngx-lazy-el
+  - Objetivo: Lazy Loading Angular Components made easy powered by Angular Elements
+  - Abrangencia: Publico
+  - Tipo: Fork
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): juristr (27), diego-radiomemory (16)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2025-07-30T20:03:59Z)
+
+### Dados e Datasets (6)
+
+- **Radio-Memory/dcm-converter**
+  - URL: https://github.com/Radio-Memory/dcm-converter
+  - Objetivo: Projeto dcm-converter no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (8)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-06-17T13:38:55Z)
+- **Radio-Memory/ia_downloader**
+  - URL: https://github.com/Radio-Memory/ia_downloader
+  - Objetivo: Projeto ia_downloader no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (3)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-10-30T16:15:23Z)
+- **Radio-Memory/ia_tomo_downloader**
+  - URL: https://github.com/Radio-Memory/ia_tomo_downloader
+  - Objetivo: Projeto ia_tomo_downloader no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (11)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-04T20:21:48Z)
+- **Radio-Memory/rdn_extractor**
+  - URL: https://github.com/Radio-Memory/rdn_extractor
+  - Objetivo: Projeto rdn_extractor no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-11-01T13:10:58Z)
+- **Radio-Memory/rmdatasets**
+  - URL: https://github.com/Radio-Memory/rmdatasets
+  - Objetivo: Radio Memory IA Datasets
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (12)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-08-02T17:51:12Z)
+- **Radio-Memory/rmmining**
+  - URL: https://github.com/Radio-Memory/rmmining
+  - Objetivo: Projeto rmmining no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-07-30T19:23:15Z)
+
+### Infra e Deploy (2)
+
+- **Radio-Memory/kubernetes-deploy**
+  - URL: https://github.com/Radio-Memory/kubernetes-deploy
+  - Objetivo: Endpoints name convention
+  - Abrangencia: Privado
+  - Tipo: Fork
+  - Linguagem principal: Python
+  - Colaboradores (API): chirlgava (8), czrcbl (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-09-12T14:15:47Z)
+- **Radio-Memory/org-settings**
+  - URL: https://github.com/Radio-Memory/org-settings
+  - Objetivo: Projeto org-settings no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-04-18T12:11:37Z)
+
+### Outros (29)
+
+- **Radio-Memory/-alinhamento_oclusais-**
+  - URL: https://github.com/Radio-Memory/-alinhamento_oclusais-
+  - Objetivo: Projeto -alinhamento_oclusais- no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-04-27T18:37:43Z)
+- **Radio-Memory/Transaxiais-local**
+  - URL: https://github.com/Radio-Memory/Transaxiais-local
+  - Objetivo: python version 3.9.18
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): chirlgava (70)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-02-03T13:16:34Z)
+- **Radio-Memory/alinhamento_oclusais**
+  - URL: https://github.com/Radio-Memory/alinhamento_oclusais
+  - Objetivo: Projeto alinhamento_oclusais no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): chirlgava (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-04-27T18:28:07Z)
+- **Radio-Memory/anomalias**
+  - URL: https://github.com/Radio-Memory/anomalias
+  - Objetivo: Projeto anomalias no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (4)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-12-21T14:06:44Z)
+- **Radio-Memory/base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada**
+  - URL: https://github.com/Radio-Memory/base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada
+  - Objetivo: Projeto base-conte-de-imagem-com-rotacao-e-transformacao-de-coordenada no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): danielpm153 (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-04T00:56:11Z)
+- **Radio-Memory/cefbot**
+  - URL: https://github.com/Radio-Memory/cefbot
+  - Objetivo: Projeto cefbot no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): radiomemory (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2024-06-10T21:04:07Z)
+- **Radio-Memory/classificador**
+  - URL: https://github.com/Radio-Memory/classificador
+  - Objetivo: Projeto classificador no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-06T18:43:06Z)
+- **Radio-Memory/classificador-onnx**
+  - URL: https://github.com/Radio-Memory/classificador-onnx
+  - Objetivo: Projeto classificador-onnx no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-01-31T00:19:21Z)
+- **Radio-Memory/curves**
+  - URL: https://github.com/Radio-Memory/curves
+  - Objetivo: Projeto curves no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-04T18:15:28Z)
+- **Radio-Memory/denticao_keras**
+  - URL: https://github.com/Radio-Memory/denticao_keras
+  - Objetivo: Projeto denticao_keras no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-13T13:45:22Z)
+- **Radio-Memory/desdentados**
+  - URL: https://github.com/Radio-Memory/desdentados
+  - Objetivo: Projeto desdentados no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-09-13T13:51:08Z)
+- **Radio-Memory/filtro_sagital**
+  - URL: https://github.com/Radio-Memory/filtro_sagital
+  - Objetivo: <!-- pip install git+https://github.com/Radio-Memory/rmtorch.git@v0.0.2 -->
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (16)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-11-22T18:45:49Z)
+- **Radio-Memory/get_tomo_views**
+  - URL: https://github.com/Radio-Memory/get_tomo_views
+  - Objetivo: Projeto get_tomo_views no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-04-27T20:41:10Z)
+- **Radio-Memory/ia-docs**
+  - URL: https://github.com/Radio-Memory/ia-docs
+  - Objetivo: Documentações de IA
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-12-29T13:35:34Z)
+- **Radio-Memory/longo-eixo-dente-individual**
+  - URL: https://github.com/Radio-Memory/longo-eixo-dente-individual
+  - Objetivo: Projeto longo-eixo-dente-individual no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): danielpm153 (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-08T01:18:08Z)
+- **Radio-Memory/metais**
+  - URL: https://github.com/Radio-Memory/metais
+  - Objetivo: Projeto metais no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): hiagop22 (1), czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-04T19:15:49Z)
+- **Radio-Memory/oclusal_deteccao_recorte_tensorflow**
+  - URL: https://github.com/Radio-Memory/oclusal_deteccao_recorte_tensorflow
+  - Objetivo: Projeto oclusal_deteccao_recorte_tensorflow no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): danielpm153 (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-08T01:27:50Z)
+- **Radio-Memory/peri_class**
+  - URL: https://github.com/Radio-Memory/peri_class
+  - Objetivo: Projeto peri_class no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: N/D
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-03-07T18:25:05Z)
+- **Radio-Memory/pontos_cefalometria_memae**
+  - URL: https://github.com/Radio-Memory/pontos_cefalometria_memae
+  - Objetivo: Detect errors from cephalometrics points, in specific, the output of CEFBOT.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (15)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-12-15T07:41:02Z)
+- **Radio-Memory/position-anomalies**
+  - URL: https://github.com/Radio-Memory/position-anomalies
+  - Objetivo: Analise e estudos das anomalias relativas ao posicionamento dos dentes em imagens panorâmicas.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): pauloj626 (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-01T20:48:03Z)
+- **Radio-Memory/procedimentos**
+  - URL: https://github.com/Radio-Memory/procedimentos
+  - Objetivo: <!-- pip install git+https://github.com/Radio-Memory/rmtorch.git@v0.0.2 -->
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-24T16:12:27Z)
+- **Radio-Memory/rmdetectron2**
+  - URL: https://github.com/Radio-Memory/rmdetectron2
+  - Objetivo: Projeto rmdetectron2 no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-10-21T17:34:47Z)
+- **Radio-Memory/rmia**
+  - URL: https://github.com/Radio-Memory/rmia
+  - Objetivo: Artifical Inteligence Projects
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): czrcbl (191)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-01T19:25:47Z)
+- **Radio-Memory/rmtorch**
+  - URL: https://github.com/Radio-Memory/rmtorch
+  - Objetivo: Code for projects that use `pytorch` as DL framework.
+  - Abrangencia: Privado
+  - Tipo: Repo principal, arquivado
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-06-30T18:43:06Z)
+- **Radio-Memory/tcls_torch**
+  - URL: https://github.com/Radio-Memory/tcls_torch
+  - Objetivo: This repository contains two packages:
+  - Abrangencia: Privado
+  - Tipo: Repo principal, arquivado
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (22)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-06-02T19:25:12Z)
+- **Radio-Memory/teeth_detection**
+  - URL: https://github.com/Radio-Memory/teeth_detection
+  - Objetivo: Teeth detection with a FasterR-CNN.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-07-13T16:47:36Z)
+- **Radio-Memory/tomocutter-AI**
+  - URL: https://github.com/Radio-Memory/tomocutter-AI
+  - Objetivo: Projeto tomocutter-AI no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): chirlgava (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-12-04T18:01:29Z)
+- **Radio-Memory/tomos**
+  - URL: https://github.com/Radio-Memory/tomos
+  - Objetivo: Projeto tomos no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-07-18T12:41:54Z)
+- **Radio-Memory/tomos_teles**
+  - URL: https://github.com/Radio-Memory/tomos_teles
+  - Objetivo: Projeto tomos_teles no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-03-29T15:11:07Z)
+
+### Pesquisa e Prototipos (5)
+
+- **Radio-Memory/Pearl**
+  - URL: https://github.com/Radio-Memory/Pearl
+  - Objetivo: Projeto Pearl no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: HTML
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-10-29T21:33:31Z)
+- **Radio-Memory/Realidade-Aumentada**
+  - URL: https://github.com/Radio-Memory/Realidade-Aumentada
+  - Objetivo: Projeto realidade aumentada iDoc
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: HTML
+  - Colaboradores (API): pauloj626 (2)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-16T16:15:09Z)
+- **Radio-Memory/sample_clearml_project**
+  - URL: https://github.com/Radio-Memory/sample_clearml_project
+  - Objetivo: Projeto sample_clearml_project no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal, arquivado
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-09-19T15:29:24Z)
+- **Radio-Memory/segmentacao-panoramica-tensorflow-artigo**
+  - URL: https://github.com/Radio-Memory/segmentacao-panoramica-tensorflow-artigo
+  - Objetivo: Projeto segmentacao-panoramica-tensorflow-artigo no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): pauloj626 (3)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-03-02T00:25:52Z)
+- **Radio-Memory/templates-idoc**
+  - URL: https://github.com/Radio-Memory/templates-idoc
+  - Objetivo: Projeto templates-idoc no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: HTML
+  - Colaboradores (API): eduardo-radiomemory (4), diego-radiomemory (3)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2023-11-13T19:16:32Z)
+
+### Treinamento e Modelos (12)
+
+- **Radio-Memory/ai-training**
+  - URL: https://github.com/Radio-Memory/ai-training
+  - Objetivo: Monorepo of training code.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (174), czrcbl (88), chirlgava (51)
+  - Atividade recente: Morno (31-180d) (pushedAt: 2026-02-13T13:05:58Z)
+- **Radio-Memory/autoencoder_longoeixo**
+  - URL: https://github.com/Radio-Memory/autoencoder_longoeixo
+  - Objetivo: Projeto autoencoder_longoeixo no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (5)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-06T09:09:01Z)
+- **Radio-Memory/cef_keypoints**
+  - URL: https://github.com/Radio-Memory/cef_keypoints
+  - Objetivo: Detect keypoints on images.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-11-30T13:22:24Z)
+- **Radio-Memory/classification**
+  - URL: https://github.com/Radio-Memory/classification
+  - Objetivo: Generic project for classification models.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (6)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-11-24T18:43:56Z)
+- **Radio-Memory/cyclegan**
+  - URL: https://github.com/Radio-Memory/cyclegan
+  - Objetivo: Code related to semantic segmentation and related tasks
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (9)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-02-15T11:17:26Z)
+- **Radio-Memory/face_marching_keypoints**
+  - URL: https://github.com/Radio-Memory/face_marching_keypoints
+  - Objetivo: Projeto face_marching_keypoints no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (4)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-06-16T14:15:57Z)
+- **Radio-Memory/keypoints**
+  - URL: https://github.com/Radio-Memory/keypoints
+  - Objetivo: ``` bash
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-07-13T17:15:59Z)
+- **Radio-Memory/longoeixo**
+  - URL: https://github.com/Radio-Memory/longoeixo
+  - Objetivo: Experimentos relacionados à deteção de pontos que marcam o longo eixo de dentes
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): czrcbl (7)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-26T05:51:07Z)
+- **Radio-Memory/semantic**
+  - URL: https://github.com/Radio-Memory/semantic
+  - Objetivo: Code related to semantic segmentation and related tasks
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Jupyter Notebook
+  - Colaboradores (API): czrcbl (17)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2021-12-30T15:08:11Z)
+- **Radio-Memory/spagan_face2marching**
+  - URL: https://github.com/Radio-Memory/spagan_face2marching
+  - Objetivo: Code related to semantic segmentation and related tasks
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (1)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-05-13T15:18:45Z)
+- **Radio-Memory/spagan_tomo2tele**
+  - URL: https://github.com/Radio-Memory/spagan_tomo2tele
+  - Objetivo: Code related to semantic segmentation and related tasks
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): hiagop22 (8)
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-03-18T18:04:00Z)
+- **Radio-Memory/teeth_semantic_segmentation**
+  - URL: https://github.com/Radio-Memory/teeth_semantic_segmentation
+  - Objetivo: Projeto teeth_semantic_segmentation no ecossistema Radio-Memory.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Python
+  - Colaboradores (API): N/D
+  - Atividade recente: Baixa atividade (>180d) (pushedAt: 2022-04-25T20:30:29Z)
+
+## Organizacao: fabioand (3 repos)
+
+### Apps, Demos e Frontend (1)
+
+- **fabioand/tomonav-mobile**
+  - URL: https://github.com/fabioand/tomonav-mobile
+  - Objetivo: Projeto separado para o novo TomoNav Mobile, mantendo `tomo-nav/` como referencia desktop.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: Vue
+  - Colaboradores (API): N/D
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-18T01:02:55Z)
+
+### Outros (2)
+
+- **fabioand/Mapa-Metabolico**
+  - URL: https://github.com/fabioand/Mapa-Metabolico
+  - Objetivo: Status do projeto:
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: JavaScript
+  - Colaboradores (API): N/D
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-18T03:40:32Z)
+- **fabioand/Radio3D**
+  - URL: https://github.com/fabioand/Radio3D
+  - Objetivo: Projeto Radio3D no ecossistema fabioand.
+  - Abrangencia: Privado
+  - Tipo: Repo principal
+  - Linguagem principal: TypeScript
+  - Colaboradores (API): N/D
+  - Atividade recente: Ativo (<=30d) (pushedAt: 2026-03-18T19:18:46Z)
